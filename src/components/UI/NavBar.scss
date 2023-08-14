@@ -1,0 +1,11 @@
+nav {
+    padding: 5px;
+    margin: 0px;
+    background-color: lightgray;
+    display: flex;
+
+    div.navItem a {
+        padding: 30px;
+        padding-left: 1px;
+    }
+}
