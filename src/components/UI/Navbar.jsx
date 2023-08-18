@@ -5,10 +5,9 @@ function Navbar() {
     return(
         <nav>
             <div className = "navItem">
-                <NavLink to = "/">Home</NavLink>
+                <NavLink to = "/" className= "navLink">Home</NavLink>
             </div>
             <div className = "navItem">
-                <p></p>
             </div>
         </nav>
     )
