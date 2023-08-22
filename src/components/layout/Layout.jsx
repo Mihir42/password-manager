@@ -1,5 +1,6 @@
 import Header from '../UI/Header';
 import Navbar from '../UI/Navbar';
+import Footer from '../UI/Footer';
 import './Layout.scss';
 
 function Layout() {
@@ -7,6 +8,7 @@ function Layout() {
         <>
             <Header />
             <Navbar />
+            <Footer />
         </>
     )
 }
