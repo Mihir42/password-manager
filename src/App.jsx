@@ -6,6 +6,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path='/' element={<Layout/>}/>
+        <Route path='/addPassword' element={<Layout/>}/>
       </Routes>
     </BrowserRouter>
   )

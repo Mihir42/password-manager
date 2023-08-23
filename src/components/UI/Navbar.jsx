@@ -8,10 +8,10 @@ function Navbar() {
                 <NavLink to = "/" className= "navLink">Home</NavLink>
             </div>
             <div className = "navItem">
-                <NavLink to ="/" className= "navLink">Add Passwords</NavLink>
+                <NavLink to ="/addPassword" className= "navLink">Add Passwords</NavLink>
             </div>
             <div className = "navItem">
-                <NavLink to = "/" className= "navLink">Generate Passwords</NavLink>
+                <NavLink to = "/generatePassword" className= "navLink">Generate Passwords</NavLink>
             </div>
             <div className = "navItem">
             </div>

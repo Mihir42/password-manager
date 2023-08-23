@@ -1,7 +1,13 @@
 footer {
-    position: fixed;
-    left: 0;
+    height: 25px;
+    background: rgb(0, 204, 126);
+    position: absolute;
     bottom: 0;
     width: 100%;
-    background-color: aquamarine;
+    text-align: center;
+
+    p.thanks {
+        color: white;
+        background: rgb(0, 204, 126);
+    }
 }
