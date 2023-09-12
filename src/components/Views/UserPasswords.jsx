@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Layout from "../layout/Layout";
+import Card from "../UI/Card";
 import Accordion from "../UI/Accordion";
 
 function UserPasswords() {
@@ -25,9 +26,9 @@ function UserPasswords() {
   return (
     <>
       <Layout>
-        {initialPasswords.map(() => {})}
-        <Accordion />
       </Layout>
+      <Card/>
+
     </>
   );
 }
