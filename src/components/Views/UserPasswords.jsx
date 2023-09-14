@@ -21,14 +21,18 @@ function UserPasswords() {
       website: "Yahoo.com",
     },
   ];
+  const accordionText = {
+    text: "This will be some really long piece of text that will be made longer now too see if the card is reponsive and data can be sent into card",
+  };
   const [passwords, setPasswords] = useState(initialPasswords);
 
   return (
     <>
       <Layout>
+        <Card title="Balls">
+          <p>{accordionText.text}</p>
+        </Card>
       </Layout>
-      <Card/>
-
     </>
   );
 }

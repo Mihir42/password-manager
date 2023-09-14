@@ -17,6 +17,6 @@ function Layout({ children }) {
   );
 }
 
-Layout.prototype = { children: PropTypes.element };
+Layout.PropTypes = { children: PropTypes.element };
 
 export default Layout;
