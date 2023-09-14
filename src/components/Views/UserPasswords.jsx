@@ -22,6 +22,7 @@ function UserPasswords() {
     },
   ];
   const accordionText = {
+    title: "Accordion title",
     text: "This will be some really long piece of text that will be made longer now too see if the card is reponsive and data can be sent into card",
   };
   const [passwords, setPasswords] = useState(initialPasswords);
@@ -29,9 +30,7 @@ function UserPasswords() {
   return (
     <>
       <Layout>
-        <Card title="Balls">
-          <p>{accordionText.text}</p>
-        </Card>
+        <Card title={accordionText.title}>{accordionText.text}</Card>
       </Layout>
     </>
   );
