@@ -1,7 +1,7 @@
 import Header from "../UI/Header";
 import Navbar from "../UI/Navbar";
 import Footer from "../UI/Footer";
-import PropTypes from "prop-types";
+import propTypes from "prop-types";
 import "./Layout.scss";
 
 function Layout({ children }) {
@@ -17,6 +17,6 @@ function Layout({ children }) {
   );
 }
 
-Layout.PropTypes = { children: PropTypes.element };
+Layout.propTypes = { children: propTypes.element };
 
 export default Layout;
