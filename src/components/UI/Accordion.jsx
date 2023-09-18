@@ -4,16 +4,19 @@ import "./Accordion.scss";
 function Accordion() {
   const data = [
     {
-      question: "Question 1",
-      answer: "zhow shang how weng zillian bing chilling",
+      username: "Mario@superMario.com",
+      password: "Itsamee123",
+      website: "My Nintendo",
     },
     {
-      question: "Question 2",
-      answer: "Your fucking gay, as in homosexual",
+      username: "Mario@gmail.com",
+      password: "Whoaaa321",
+      website: "Gmail",
     },
     {
-      question: "Question 3",
-      answer: "Wassup Bejing",
+      username: "Mario543",
+      password: "StarPwoer243",
+      website: "Microsoft",
     },
   ];
 
@@ -32,11 +35,12 @@ function Accordion() {
         {data.map((item, i) => (
           <div className="item" key={i}>
             <div className="title" onClick={() => toggle(i)}>
-              <h2>{item.question}</h2>
+              <h2>{item.website}</h2>
               <span>{selected == i ? "-" : "+"}</span>
             </div>
             <div className={selected == i ? "answer show" : "answer"}>
-              {item.answer}
+              {item.username}
+              {item.password}
             </div>
           </div>
         ))}
